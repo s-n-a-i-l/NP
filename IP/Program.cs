@@ -14,9 +14,9 @@ class Program
 		}
 		return count;
 	}
-	static string ToIP(uint val)
+	static string ToIP(uint valume)
 	{
-		return $"{(val >> 24) & 255}.{(val >> 16) & 255}.{(val >> 8) & 255}.{val & 255}";
+		return $"{(valume >> 24) & 255}.{(valume >> 16) & 255}.{(valume >> 8) & 255}.{valume & 255}";
 	}
 	static string GetIPClass(byte firstOctet)
 	{
